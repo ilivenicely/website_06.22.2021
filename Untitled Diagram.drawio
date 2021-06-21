@@ -1,1 +1,176 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T04:41:51.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.0" etag="J6ChluCrK2h5aiIcr-tY" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-21T09:04:05.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="q76L_FrPorI_8gp0795c" version="14.8.0" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1108" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200000" pageHeight="200000" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="options.Events is a New JwtBearerEvents object&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="450" y="470" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-1" value="public class PresenceHub: Hub" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="40" width="290" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-2" value="public override async OnConnectedAsync()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VMqBc28HTQ7sQ4uuLxsj-1">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-3" value="public override async OnDisconnectedAsync()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VMqBc28HTQ7sQ4uuLxsj-1">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VMqBc28HTQ7sQ4uuLxsj-1">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-5" value="await Clients.Others.SendAsync(&quot;UserIsOnline&quot;, Context.User.GetUsername());" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="49" width="320" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-2" target="VMqBc28HTQ7sQ4uuLxsj-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-7" value="public override async OnConnectedAsync()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="14" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-8" value="await Clients.Others.SendAsync(&quot;UserIsOffline&quot;, Context.User.GetUsername());&lt;br&gt;&lt;br&gt;await base.OnDisconnectedAsync(exception);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="170" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-3" target="VMqBc28HTQ7sQ4uuLxsj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-10" value="public override async OnDisconnectedAsync()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="144" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-11" value="Wtihin configure services&lt;br&gt;&lt;br&gt;&lt;b&gt;Add to service:&amp;nbsp;&lt;/b&gt;&lt;br&gt;services.AddSignalR();&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;Add to endpoints:&lt;/b&gt;&lt;br&gt;endpoints.MapHub&amp;lt;PresenceHub&amp;gt;(&quot;hubs/presence&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="30" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-11" target="VMqBc28HTQ7sQ4uuLxsj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none; font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;1&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="30" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-22" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none ; font-size: 33px&quot;&gt;&lt;font style=&quot;font-size: 33px&quot;&gt;2&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="30" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-25" value="&lt;b&gt;above PresenceHub : Hub&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Add above:&lt;/b&gt;&lt;br&gt;[Authorize]&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="450" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-26" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none ; font-size: 33px&quot;&gt;&lt;font style=&quot;font-size: 33px&quot;&gt;3&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="430" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-27" target="VMqBc28HTQ7sQ4uuLxsj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-27" value="&lt;font style=&quot;font-size: 18px&quot;&gt;OnMessageRecieved contains context&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="333.13" y="705" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-29" target="VMqBc28HTQ7sQ4uuLxsj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-29" target="VMqBc28HTQ7sQ4uuLxsj-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-29" value="&amp;nbsp;is options.Events is a New JwtBearerEvents object ?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="660" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-32" target="VMqBc28HTQ7sQ4uuLxsj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-32" target="VMqBc28HTQ7sQ4uuLxsj-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-32" value="can an Access token be queried?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="438.12" y="790" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-34" target="VMqBc28HTQ7sQ4uuLxsj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-34" target="VMqBc28HTQ7sQ4uuLxsj-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-34" value="is&amp;nbsp; AccessToken not null&amp;nbsp;&lt;br&gt;and&lt;br&gt;does the path start with&lt;br&gt;/hubs?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="421.24" y="1020" width="183.75" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-36" target="VMqBc28HTQ7sQ4uuLxsj-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="1370" />
+              <mxPoint x="60" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-36" value="&lt;font style=&quot;font-size: 17px&quot;&gt;return completed task.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="413.12" y="1340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-38" value="&lt;b&gt;Startup.cs&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Add:&lt;/b&gt;&lt;br&gt;AllowCredentials&amp;nbsp;&lt;br&gt;&lt;br&gt;to &lt;br&gt;&lt;br&gt;UseCors()&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1520" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-39" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none ; font-size: 33px&quot;&gt;&lt;font style=&quot;font-size: 33px&quot;&gt;4&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="1510" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-41" target="VMqBc28HTQ7sQ4uuLxsj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-41" value="&lt;span style=&quot;font-size: 12px&quot;&gt;request a path from HttpContext&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="413.12" y="940" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-42" target="VMqBc28HTQ7sQ4uuLxsj-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-42" value="&lt;font style=&quot;font-size: 17px&quot;&gt;assign AccessToken to the context token&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="403.13" y="1210" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=33;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-59" target="VMqBc28HTQ7sQ4uuLxsj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-59" value="&lt;span style=&quot;font-size: 12px&quot;&gt;throw exception&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="825" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-68" value="&lt;br&gt;&lt;br&gt;&lt;b&gt;Add:&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;https://localhost:5001/hubs/&lt;br&gt;&lt;br&gt;&lt;br&gt;to hubUrl&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2000" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-69" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none ; font-size: 33px&quot;&gt;&lt;font style=&quot;font-size: 33px&quot;&gt;1&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1960" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-70" value="environment.tts&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="255" y="1960" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-71" value="&lt;b&gt;idetntityServieExtension.cs&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Add:&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;we target OnMessageRecieved and&amp;nbsp;&lt;br&gt;&amp;nbsp;pass through a context to&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;add lambda&lt;br&gt;&lt;br&gt;add variable accessToken&amp;nbsp;&lt;br&gt;&lt;br&gt;add&lt;br&gt;&lt;br&gt;a context request query string of access_token&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFF99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="660" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-72" target="VMqBc28HTQ7sQ4uuLxsj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-72" value="&lt;br&gt;&lt;br&gt;&lt;b&gt;Add:&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;hubUrl: &#39;hubs/&#39;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="2010" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-73" value="environment.prod.tts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="1950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-76" value="presense.service.ts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="1950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-81" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 26px ; font-size: 11px&quot;&gt;&lt;div&gt; &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;createHubConnection&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;user&lt;/span&gt;: &lt;span style=&quot;color: #4ec9b0&quot;&gt;User&lt;/span&gt;) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;    &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;hubConnection&lt;/span&gt; = &lt;span style=&quot;color: #569cd6&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;HubConnectionBuilder&lt;/span&gt;()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      .&lt;span style=&quot;color: #dcdcaa&quot;&gt;withUrl&lt;/span&gt;(&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;hubUrl&lt;/span&gt; + &lt;span style=&quot;color: #ce9178&quot;&gt;&#39;presence&#39;&lt;/span&gt;, {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;        &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;accessTokenFactory&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;:&lt;/span&gt; () &lt;span style=&quot;color: #569cd6&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe&quot;&gt;user&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;token&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      })&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      .&lt;span style=&quot;color: #dcdcaa&quot;&gt;withAutomaticReconnect&lt;/span&gt;()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      .&lt;span style=&quot;color: #dcdcaa&quot;&gt;build&lt;/span&gt;()&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;    &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;hubConnection&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      .&lt;span style=&quot;color: #dcdcaa&quot;&gt;start&lt;/span&gt;()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      .&lt;span style=&quot;color: #dcdcaa&quot;&gt;catch&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;error&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe&quot;&gt;console&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;log&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;error&lt;/span&gt;));&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;    &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;hubConnection&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;on&lt;/span&gt;(&lt;span style=&quot;color: #ce9178&quot;&gt;&#39;UserIsOnline&#39;&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe&quot;&gt;username&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;=&amp;gt;&lt;/span&gt; {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;      &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;onlineUsers$&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;pipe&lt;/span&gt;(&lt;span style=&quot;color: #dcdcaa&quot;&gt;take&lt;/span&gt;(&lt;span style=&quot;color: #b5cea8&quot;&gt;1&lt;/span&gt;)).&lt;span style=&quot;color: #dcdcaa&quot;&gt;subscribe&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;usernames&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;=&amp;gt;&lt;/span&gt; {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;        &lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;onlineUsersSource&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;next&lt;/span&gt;([...&lt;span style=&quot;color: #9cdcfe&quot;&gt;usernames&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe&quot;&gt;username&lt;/span&gt;])&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;      })&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;    })&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="2210" width="390" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-82" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 9px; line-height: 26px;&quot;&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 9px;&quot;&gt;hubUrl&lt;/span&gt; = &lt;span style=&quot;color: rgb(79, 193, 255); font-size: 9px;&quot;&gt;environment&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 9px;&quot;&gt;hubUrl&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;  &lt;span style=&quot;color: rgb(86, 156, 214); font-size: 9px;&quot;&gt;private&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 9px;&quot;&gt;hubConnection&lt;/span&gt;: &lt;span style=&quot;color: rgb(78, 201, 176); font-size: 9px;&quot;&gt;HubConnection&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;  &lt;span style=&quot;color: rgb(86, 156, 214); font-size: 9px;&quot;&gt;private&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 9px;&quot;&gt;onlineUsersSource&lt;/span&gt; = &lt;span style=&quot;color: rgb(86, 156, 214); font-size: 9px;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 201, 176); font-size: 9px;&quot;&gt;BehaviorSubject&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 9px;&quot;&gt;string&lt;/span&gt;[]&amp;gt;([]);&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;  &lt;span style=&quot;color: rgb(86, 156, 214); font-size: 9px;&quot;&gt;constructor&lt;/span&gt;(&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 9px;&quot;&gt;private&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 9px;&quot;&gt;toastr&lt;/span&gt;: &lt;span style=&quot;color: rgb(78, 201, 176); font-size: 9px;&quot;&gt;ToastrService&lt;/span&gt;, &lt;span style=&quot;color: rgb(86, 156, 214); font-size: 9px;&quot;&gt;private&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 9px;&quot;&gt;router&lt;/span&gt;: &lt;span style=&quot;color: rgb(78, 201, 176); font-size: 9px;&quot;&gt;Router&lt;/span&gt;) { }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFF99;fontSize=9;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="2010" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-86" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 10px ; line-height: 26px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;stopHubConnection&lt;/span&gt;() {&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;hubConnection&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;stop&lt;/span&gt;().&lt;span style=&quot;color: #dcdcaa&quot;&gt;catch&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;error&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe&quot;&gt;console&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;log&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;error&lt;/span&gt;));&lt;/div&gt;&lt;div&gt;  }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFF99;fontSize=9;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="2790" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-87" value="&lt;font style=&quot;font-size: 12px&quot;&gt;app.component.ts&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 26px ; font-size: 12px&quot;&gt;&lt;div&gt;  &lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;setCurrentUser&lt;/span&gt;() {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;    &lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff&quot;&gt;user&lt;/span&gt;: &lt;span style=&quot;color: #4ec9b0&quot;&gt;User&lt;/span&gt; = &lt;span style=&quot;color: #9cdcfe&quot;&gt;JSON&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;parse&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;localStorage&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;getItem&lt;/span&gt;(&lt;span style=&quot;color: #ce9178&quot;&gt;&#39;user&#39;&lt;/span&gt;));&lt;/font&gt;&lt;/div&gt;&lt;div&gt;    &lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #4fc1ff&quot;&gt;user&lt;/span&gt;) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;      &lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;accountService&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;setCurrentUser&lt;/span&gt;(&lt;span style=&quot;color: #4fc1ff&quot;&gt;user&lt;/span&gt;);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;      &lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;presence&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;createHubConnection&lt;/span&gt;(&lt;span style=&quot;color: #4fc1ff&quot;&gt;user&lt;/span&gt;);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;    }&lt;/font&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFF99;fontSize=9;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="2000" width="480" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VMqBc28HTQ7sQ4uuLxsj-87" target="VMqBc28HTQ7sQ4uuLxsj-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-89" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 153); display: inline; float: none;&quot;&gt;app.component.ts&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1420" y="1940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMqBc28HTQ7sQ4uuLxsj-91" value="IdentityServiceExtension.cs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFF99;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="640" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
